@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-
+//AZ
 struct pracownik{
     char imie[15];
     char nazwisko[25];
