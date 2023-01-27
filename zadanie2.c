@@ -18,12 +18,12 @@ float obliczPlace(struct pracownik);
 float obliczPlaceViaPointer( struct pracownik *);
 
 int main(){
-    struct pracownik pr1;
+    struct pracownik pr1, *pr2;
     pr1=wprowadzPracownika();
     wyswietlDane(pr1);
     printf("\n--Pointer--\n");
-    wprowadzDaneViaPointer(&pr1);
-    wyswietlDaneViaPointer(&pr1);
+    wprowadzDaneViaPointer(&pr2);
+    wyswietlDaneViaPointer(&pr2);
 }
 
 struct pracownik wprowadzPracownika(){
